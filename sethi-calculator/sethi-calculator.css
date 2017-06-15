@@ -1,0 +1,68 @@
+/* Styling inspired by Apple iPhone */
+/* Google font to be applied on the entire calculator */
+.sethi-calculator {
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+/* Styling for the input textarea */
+.input {
+	color: white;
+	font-size: 50px;
+	background-color: #202020;
+	border: none;
+	width: 100%;
+	height: 160px;
+	padding-right: 30px;
+	text-align: right;
+}
+
+/* Styling for the delete button */
+.delete {
+	font-weight: bold;
+	border: none;
+	background-color: white;
+	display: none;
+	float: right;
+}
+
+/* Styling for all the buttons */
+.grey, .lightgrey, .orange {
+	height: 70px;
+	border: 1px solid #9E9FA3;
+	font-size: 30px;
+	text-align: center;
+	line-height: 70px;
+	height: 70px;
+	cursor: pointer;
+}
+
+/* Left align for the 0 button only */
+.leftalign {
+	text-align: left;
+}
+
+/* Default and hover state color effects for the calculator buttons */
+.grey {
+	background-color: hsl(228, 4%, 76%);
+}
+
+.grey:hover {
+	background-color: hsl(228, 4%, 65%);
+}
+
+.lightgrey {
+	background-color: hsl(228, 6%, 84%);
+}
+
+.lightgrey:hover {
+	background-color: hsl(228, 4%, 76%);
+}
+
+.orange {
+	color: white;
+	background-color: hsl(33, 95%, 52%);
+}
+
+.orange:hover{
+	background-color: hsl(33, 95%, 44%);
+}
